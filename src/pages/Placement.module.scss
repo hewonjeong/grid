@@ -10,13 +10,13 @@
     background-color: $orange;
     color: $white;
     font-size: 36px;
-  }
 
-  .gridItem:nth-of-type(2) {
-    grid-row-start: span 2;
-  }
+    &:nth-of-type(2) {
+      grid-row-start: span 2;
+    }
 
-  .gridItem:nth-of-type(6) {
-    grid-column: 3 / span 2;
+    &:nth-of-type(6) {
+      grid-column: 3 / span 2;
+    }
   }
 }
