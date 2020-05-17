@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Gaps from './pages/Gaps'
+import Naming from './pages/Naming'
 import './index.scss'
 
 const Home = () => {
-  return <Gaps />
+  return <Naming />
 }
 
 ReactDOM.render(
