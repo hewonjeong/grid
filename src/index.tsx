@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Placement from './pages/Placement'
+import Gaps from './pages/Gaps'
 import './index.scss'
 
 const Home = () => {
-  return <Placement />
+  return <Gaps />
 }
 
 ReactDOM.render(

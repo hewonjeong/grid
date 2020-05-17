@@ -1,0 +1,14 @@
+@import 'palette';
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-gap: 10px 100px;
+  margin: 10px;
+
+  .gridItem {
+    background-color: $yellow;
+    font-size: 40px;
+  }
+}
