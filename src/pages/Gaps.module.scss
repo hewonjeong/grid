@@ -4,7 +4,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 4fr 1fr;
-  grid-gap: 10px 100px;
+  grid-gap: 10px 100px; // same with { row-gap: 10px; column-gap: 100px; }
   margin: 10px;
 
   .gridItem {
