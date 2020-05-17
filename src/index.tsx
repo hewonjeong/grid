@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Complex from './pages/Complex'
+import Minmax from './pages/Minmax'
 import './index.scss'
 
 const Home = () => {
-  return <Complex />
+  return <Minmax />
 }
 
 ReactDOM.render(
