@@ -1,0 +1,14 @@
+@import 'palette';
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+  grid-template-rows: 20px 30px 40px 5fr 1fr;
+
+  .box {
+    background-color: $dark-gray;
+    color: $white;
+    font-size: 20px;
+  }
+}

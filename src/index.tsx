@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Naming from './pages/Naming'
+import Units from './pages/Units'
 import './index.scss'
 
 const Home = () => {
-  return <Naming />
+  return <Units />
 }
 
 ReactDOM.render(
